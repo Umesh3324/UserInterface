@@ -1,0 +1,97 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table width="100%">
+            <tr>
+                <td width="90%">
+                <a href="index.html"><b>Log in</b></a></td>
+                <td rowspan="2">
+                    <h1><img src="rays.png" alt="Rays Technoligies" height="100"></h1>
+                </td>
+            </tr>
+            <tr>
+                <td><h3>Hi Guest..</h3></td>
+            </tr>
+        </table>
+        <hr>
+        <form action="index.html">
+            <center>
+                <h1>User ragistration</h1>
+                <P class="succes">
+                    Ragistration is done.
+                </P>
+                <p class="errorbig">
+                    Log in id already exist.
+                </p>
+                <input type="hidden" name="id" value="0">
+                <input type="hidden" name="createby" value="root">
+                <input type="hidden" name="moddifyby" value="root">
+                <input type="hidden" name="createdDate" value="0">
+                <input type="hidden" name="modidfyDate" value="0">
+                <table>
+                    <tr>
+                        <th>First name* </th>
+                        <td>
+                            <input type="text" name="firstName" value="">
+                            <font color="red" >First name is required.</font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Last name* </th>
+                        <td>
+                            <input type="text" name="LastName" value="">
+                            <font color="red" >Last name is required.</font>
+                        </td>
+                    </tr>
+                    <tr>
+                            <th>Log in Id* </th>
+                            <td>
+                                <input type="text" name="login" placeholder="Must be Email id." value="">
+                                <font color="red" >Log in is required.</font>
+                            </td>
+                    </tr>
+                    <tr>
+                            <th>Password* </th>
+                            <td>
+                            <input type="password" name="password" placeholder="Enter new password" value="">
+                            <font color="red" >Enter a password</font>
+                            </td>
+                    </tr>
+                    <tr>
+                            <th>confirm password* </th>
+                            <td>
+                                <input type="password" name="password" placeholder="confirm password" value="">
+                                <font color="red" >confirm your password</font>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>Gender *</th>
+                        <td>
+                            <select class='form control' name="gender">
+                            <option selected value='F'>Female</option>
+                            <option selected value='M'>Male</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                    <th>Date of birth(dd/mm/yy)</th>
+                      <td>
+                        <input type="date" name="dob" id="Dateofbirth">
+                        <font class="error">Date of birth is required</font>
+                    </td>
+                    </tr>
+                    <!-- <tr><td></td></tr> -->
+                    <tr>
+                        <td></td>
+                        <td colspan="2">
+                            <input type="submit" name="option" value="submit">
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            <center><h3>(c) copyright SunilOS infotech pvt. Ltd.</h3></center>
+        </form>
+    </body>
+</html>
